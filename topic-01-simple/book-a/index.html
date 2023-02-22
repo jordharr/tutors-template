@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutors</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.1.4/dist/typography.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@^4/dist/vime/vime.esm.js"></script>
+  </head>
+
+  <body>
+    <div class="mx-auto px-3 antialiased bg-base-100 min-h-screen w-full 2xl:w-11/12" data-theme="light">
+  
+  <div class="p-3 shadow-lg bg-neutral text-neutral-content rounded-box nav-corner mb-1 justify-end z-40 flex mt-2">
+    
+  <div class="flex-1">
+    <div class="flex-1 px-2 mx-2 lg:block">
+      <p class="text-sm font-bold">Lab-01</p>
+      
+        <p class="text-sm font-bold"> Simple  </p>
+      
+    </div>
+  </div>
+
+  </div>
+  <div class="flex flex-wrap lg:flex-nowrap mb-2">
+    
+  <div class="shadow-lg bg-neutral rounded-box nav-corner horizontal text-neutral-content text-sm breadcrumbs flex flex-auto content-center h-12">
+    <ul>
+      
+        <li class="ml-2">
+          
+            
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:home-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+            <a class="font-bold" href="../index.html"> <span class="hidden text-xs lg:block lg:pl-2"> Home </span> </a>
+          
+        </li>
+        
+          
+            <li class="ml-2">
+              
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:bookmark-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+              <a class="font-bold" href="../index.html"> <span
+                    class="hidden text-xs lg:block lg:pl-2">  Simple   </span> </a>
+            </li>
+          
+        
+        <li class="ml-2">
+          
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:beaker-24-filled" data-height="20" style="color:#557927">
+  </span>
+  </div>
+  
+
+          <a class="font-bold" href="#"> <span class="hidden text-xs lg:block lg:pl-2"> Lab-01</span> </a>
+        </li>
+      
+    </ul>
+  </div>
+
+    
+
+  
+      <div class="p-3 flex-wrap lg:flex-none shadow-lg bg-neutral text-neutral-content rounded-box nav-corner horizontal ml-2">
+        
+          
+  
+     <a href="https://moodle.wit.ie/course/view.php?id=118143&section=3" target="_blank">
+    <div class="tooltip tooltip-bottom" data-tip="To Moodle ...">
+  
+    <span class="mx-2 iconify" data-icon="fluent:hat-graduation-24-filled" data-height="20" style="color:#d27711">
+  </span>
+  </div>
+  
+     </a>
+  
+
+        
+        
+        
+          
+  
+     <a href="https://www.youtube.com/playlist?list=PLMW4bgOfD3Dwi6FWirJ3AQtXZ-N_hV3Eo" target="_blank">
+    <div class="tooltip tooltip-bottom" data-tip="To Youtube ...">
+  
+    <span class="mx-2 iconify" data-icon="fluent:video-clip-24-filled" data-height="20" style="color:#ba5150">
+  </span>
+  </div>
+  
+     </a>
+  
+
+        
+    </div>
+  
+
+  </div>
+
+  <div class="flex m-2">
+    <div class="hidden md:block">
+      <ul class="menu py-2 w-72 shadow-lg bg-neutral text-neutral-content rounded-box card-corner sticky top-2 overflow-auto h-auto mr-2">
+        
+          <a id="menu-Lab-01" class="p-4 py-3 text-base" href="javascript:showtab('Lab-01')">  <h1 id="objectives">Objectives</h1> </a>
+        
+          <a id="menu-01" class="p-4 py-3 text-base" href="javascript:showtab('01')">  <h1 id="text">Text</h1> </a>
+        
+          <a id="menu-02" class="p-4 py-3 text-base" href="javascript:showtab('02')">  <h1 id="tableslinesandimages">Tables, Lines and Images</h1> </a>
+        
+          <a id="menu-03" class="p-4 py-3 text-base" href="javascript:showtab('03')">  <h1 id="linksandcodeblocks">Links and Code Blocks</h1> </a>
+        
+          <a id="menu-04" class="p-4 py-3 text-base" href="javascript:showtab('04')">  <h1 id="images">Images</h1> </a>
+        
+          <a id="menu-05" class="p-4 py-3 text-base" href="javascript:showtab('05')">  <h1 id="katex">Katex</h1> </a>
+        
+          <a id="menu-Exercises" class="p-4 py-3 text-base" href="javascript:showtab('Exercises')">  <h1 id="exercisesarchives">Exercises &amp; Archives</h1> </a>
+        
+      </ul>
+    </div>
+    <div class="justify-end w-full bg-base-200 rounded-box rounded-xl py-1 text-base-content">
+      <article id="tab-container" class="prose xl:max-w-3xl 2xl:max-w-5xl mx-auto p-2 m-4">
+      </article>
+    </div>
+  </div>
+  
+    <div id="Lab-01" style="visibility:hidden"> <h1 id="objectives">Objectives</h1>
+<p>A set of practical instructions or a walk-though</p></div>
+  
+    <div id="01" style="visibility:hidden"> <h1 id="text">Text</h1>
+<p>It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown. You can even <a href="http://google.com" rel="noopener noreferrer" target="_blank">inset a link to Google</a></p>
+<h2 id="lists">Lists</h2>
+<p>Sometimes you want numbered lists:</p>
+<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+<p>Sometimes you want bullet points:</p>
+<ul>
+<li>Start a line with a star</li>
+<li>Profit!</li>
+</ul>
+<p>Alternatively,</p>
+<ul>
+<li>Dashes work just as well</li>
+<li>And if you have sub points, put two spaces before the dash or star:</li>
+<li>Like this</li>
+<li>And this</li>
+</ul>
+<h2 id="images">Images</h2>
+<p>If you want a link to a local image, place the image in the <code>img</code> folder and then insert a link like this:</p>
+<p><img src="img/02.jpg" alt="" /></p>
+<p>Alternatively you can directly link to images on the web:</p>
+<p><img src="https://octodex.github.com/images/yaktocat.png" alt="Image of Yaktocat" /></p>
+<p>The above includes a title.</p>
+<h1 id="structureddocuments">Structured documents</h1>
+<p>Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a <code>#</code> to create headings. Multiple <code>##</code> in a row denote smaller heading sizes.</p>
+<h3 id="thisisathirdtierheading">This is a third-tier heading</h3>
+<p>You can use one <code>#</code> all the way up to <code>######</code> six for different heading sizes.</p>
+<p>If you'd like to quote someone, use the &gt; character before the line:</p>
+<blockquote>
+  <p>Coffee. The finest organic suspension ever devised… I beat the Borg with it.</p>
+  <ul>
+  <li>Captain Janeway</li>
+  </ul>
+</blockquote>
+<p>There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: <code>var example = true</code>.  If you've got a longer block of code, you can indent with four spaces:</p>
+<pre><code class="hljs"><span class="hljs-keyword">if</span> (isAwesome){
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}
+</code></pre>
+<p>GitHub also supports something called code fencing, which allows for multiple lines without indentation:</p>
+<pre><code class="hljs"><span class="hljs-keyword">if</span> (isAwesome){
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}
+</code></pre>
+<p>And if you'd like to use syntax highlighting, include the language:</p>
+<pre><code class="hljs javascript language-javascript"><span class="hljs-keyword">if</span> (isAwesome){
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}
+</code></pre></div>
+  
+    <div id="02" style="visibility:hidden"> <h1 id="tableslinesandimages">Tables, Lines and Images</h1>
+<p>Tables can look like this:</p>
+<table>
+<thead>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cell 1</td>
+<td>cell 2</td>
+</tr>
+<tr>
+<td>cell 3</td>
+<td>cell 4</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>A horizontal rules above and below</p>
+<hr />
+<p>Some more images:</p>
+<p><img src="img/01.jpg" alt="" /></p>
+<p>A few sentences on the purpose of the lab. Avoid bullet points here for formatting reasons.
+And if you'd like to use syntax highlighting, include the language:</p>
+<pre><code class="hljs javascript language-javascript"><span class="hljs-keyword">if</span> (isAwesome){
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+}
+</code></pre>
+<ul>
+<li>Dashes work just as well</li>
+<li>And if you have sub points, put two spaces before the dash or star:</li>
+<li>Like this</li>
+<li>And this</li>
+</ul>
+<pre><code class="hljs typescript language-typescript"><span class="hljs-keyword">let</span> flatLos = <span class="hljs-title function_">flattenNestedLosArrays</span>(los);
+<span class="hljs-keyword">let</span> <span class="hljs-attr">result</span>: <span class="hljs-built_in">string</span>[] = [];
+flatLos.<span class="hljs-title function_">forEach</span>(<span class="hljs-function">(<span class="hljs-params">obj</span>) =&gt;</span> {
+</code></pre>
+<p>If you'd like to quote someone, use the &gt; character before the line:
+Coffee. The finest organic suspension ever devised… I beat the Borg with it.</p>
+<pre><code class="hljs javascript language-javascript">testing ticked fence
+</code></pre>
+<p>Now check adjacent fenced units:</p>
+<pre><code class="hljs javascript language-javascript"><span class="hljs-title class_">Code</span> section <span class="hljs-number">1</span>: tilde fences
+</code></pre>
+<pre><code class="hljs javascript language-javascript"><span class="hljs-title class_">Code</span> section <span class="hljs-number">2</span>: another tilde fencing
+</code></pre>
+<pre><code class="hljs javascript language-javascript">testing ticked fence another
+</code></pre>
+<pre><code class="hljs javascript language-javascript">testing ticked fence and another
+</code></pre>
+<pre><code class="hljs javascript language-javascript">testing ticked fence and yet another
+</code></pre></div>
+  
+    <div id="03" style="visibility:hidden"> <h1 id="linksandcodeblocks">Links and Code Blocks</h1>
+<p>You can inert links in bullet points:</p>
+<ul>
+<li><a href="http://github.com" rel="noopener noreferrer" target="_blank">http://github.com</a></li>
+<li><a href="http://bitbucket.dom" rel="noopener noreferrer" target="_blank">http://bitbucket.dom</a></li>
+</ul>
+<p>More Code Block examples</p>
+<pre><code class="hljs">  publish(path, course) {
+    <span class="hljs-keyword">const</span> basePath = <span class="hljs-string">&#x27;../&#x27;</span> + path + <span class="hljs-string">&#x27;/&#x27;</span> + <span class="hljs-keyword">this</span>.folder;
+    futils.initEmptyPath(basePath);
+
+    <span class="hljs-keyword">this</span>.resources = <span class="hljs-keyword">this</span>.talks.concat(<span class="hljs-keyword">this</span>.labs);
+    futils.copyFileToFolder(<span class="hljs-keyword">this</span>.img, basePath);
+    futils.writeFile(basePath + <span class="hljs-string">&#x27;/index.html&#x27;</span>, nunjucks.render(<span class="hljs-string">&#x27;topic.html&#x27;</span>, <span class="hljs-keyword">this</span>));
+
+    futils.writeFile(basePath + <span class="hljs-string">&#x27;/ajaxlabel.html&#x27;</span>,
+        nunjucks.render(<span class="hljs-string">&#x27;ajaxlabel.html&#x27;</span>,
+            { url: <span class="hljs-keyword">this</span>.url.substring(<span class="hljs-number">5</span>) + <span class="hljs-string">&#x27;/&#x27;</span> + <span class="hljs-keyword">this</span>.folder }));
+    futils.writeFile(basePath + <span class="hljs-string">&#x27;/indexmoodle.html&#x27;</span>, nunjucks.render(<span class="hljs-string">&#x27;indexmoodle.html&#x27;</span>, <span class="hljs-keyword">this</span>));
+
+    console.log(<span class="hljs-keyword">this</span>.title);
+    <span class="hljs-keyword">this</span>.publishTalks(basePath);
+    <span class="hljs-keyword">this</span>.publishLabs(basePath, course);
+  }
+</code></pre>
+<p>This was autodetected as javascript. This one is html:</p>
+<pre><code class="hljs"><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;ui segment pushable&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;ui inverted labeled icon left inline vertical sidebar menu&quot;</span>&gt;</span>
+    {% for resource in course.allLabs.resources %}
+      {% if resource.title == title %}
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;active item&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../../</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.parentFolder</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">/</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.folder</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">/</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.link</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span>
+          </span><span class="hljs-template-variable">{{<span class="hljs-name">resource.title</span>}}</span><span class="language-xml">
+        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+      {% else %}
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../../</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.parentFolder</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">/</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.folder</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">/</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">resource.link</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span>
+          </span><span class="hljs-template-variable">{{<span class="hljs-name">resource.title</span>}}</span><span class="language-xml">
+        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+      {% endif %}
+    {% endfor %}
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pusher&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;ui basic segment&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+      {% for chapter in chapters %}
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span>  <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;ui tab segment lab&quot;</span> <span class="hljs-attr">data-tab</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-variable">{{<span class="hljs-name">chapter.shortTitle</span>}}</span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span>
+        </span><span class="hljs-template-variable">{{ <span class="hljs-name">chapter.content</span> }}</span><span class="language-xml">
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+     {% endfor %}
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></code></pre></div>
+  
+    <div id="04" style="visibility:hidden"> <h1 id="images">Images</h1>
+<p>Some more images</p>
+<p><img src="img/04.png" alt="" /></p>
+<h3 id="youcanputatitlehere">You can put a title here</h3>
+<p><img src="img/03.png" alt="" /></p>
+<p>This is some text </p></div>
+  
+    <div id="05" style="visibility:hidden"> <h1 id="katex">Katex</h1>
+<p>Larex support via the <a href="https://katex.org/" rel="noopener noreferrer" target="_blank">Katex</a> Library.</p>
+<h2 id="example0">Example 0</h2>
+<pre><code class="hljs asciimath language-asciimath"><span class="hljs-attr">E</span>=mc^<span class="hljs-number">2</span>
+</code></pre>
+<h2 id="example1">Example 1</h2>
+<pre><code class="hljs latex language-latex">c = <span class="hljs-keyword">\pm</span><span class="hljs-keyword">\sqrt</span>{a<span class="hljs-built_in">^</span>2 + b<span class="hljs-built_in">^</span>2}
+</code></pre>
+<h2 id="example2">Example 2</h2>
+<pre><code class="hljs latex language-latex">x=<span class="hljs-keyword">\frac</span>{ -b<span class="hljs-keyword">\pm</span><span class="hljs-keyword">\sqrt</span>{ b<span class="hljs-built_in">^</span>2-4ac } } {2a}
+</code></pre>
+<h2 id="example3">Example 3</h2>
+<pre><code class="hljs latex language-latex">f(x) = <span class="hljs-keyword">\int</span><span class="hljs-built_in">_</span>{-<span class="hljs-keyword">\infty</span>}<span class="hljs-built_in">^</span><span class="hljs-keyword">\infty</span><span class="hljs-keyword">\hat</span> f(<span class="hljs-keyword">\xi</span>)<span class="hljs-keyword">\,</span>e<span class="hljs-built_in">^</span>{2 <span class="hljs-keyword">\pi</span> i <span class="hljs-keyword">\xi</span> x}<span class="hljs-keyword">\,</span>d<span class="hljs-keyword">\xi</span>
+</code></pre>
+<h2 id="example4">Example 4</h2>
+<pre><code class="hljs asciimath language-asciimath"><span class="hljs-attribute">g</span>(x) = <span class="hljs-number">3</span>x^<span class="hljs-number">4</span> + <span class="hljs-number">2</span>x^<span class="hljs-number">2</span>
+</code></pre>
+<h2 id="example5">Example 5</h2>
+<pre><code class="hljs latex language-latex">x=<span class="hljs-keyword">\frac</span>{ -b<span class="hljs-keyword">\pm</span><span class="hljs-keyword">\sqrt</span>{ b<span class="hljs-built_in">^</span>2-4ac } } {2a}
+
+<span class="hljs-keyword">\sum</span><span class="hljs-built_in">_</span>{i=1}<span class="hljs-built_in">^</span>n i<span class="hljs-built_in">^</span>3 = <span class="hljs-keyword">\left</span>( <span class="hljs-keyword">\frac</span>{n(g(n)+1)} 2 <span class="hljs-keyword">\right</span>) <span class="hljs-built_in">^</span>2
+
+c = <span class="hljs-keyword">\pm</span><span class="hljs-keyword">\sqrt</span>{a<span class="hljs-built_in">^</span>2 + b<span class="hljs-built_in">^</span>2}
+</code></pre>
+<h2 id="example6">Example 6</h2>
+<pre><code class="hljs latex language-latex"><span class="hljs-keyword">\frac</span>{1}{<span class="hljs-keyword">\Bigl</span>(<span class="hljs-keyword">\sqrt</span>{<span class="hljs-keyword">\phi</span> <span class="hljs-keyword">\sqrt</span>{5}}-<span class="hljs-keyword">\phi</span><span class="hljs-keyword">\Bigr</span>) e<span class="hljs-built_in">^</span>{<span class="hljs-keyword">\frac</span>25 <span class="hljs-keyword">\pi</span>}} = 1+<span class="hljs-keyword">\frac</span>{e<span class="hljs-built_in">^</span>{-2<span class="hljs-keyword">\pi</span>}} {1+<span class="hljs-keyword">\frac</span>{e<span class="hljs-built_in">^</span>{-4<span class="hljs-keyword">\pi</span>}} {1+<span class="hljs-keyword">\frac</span>{e<span class="hljs-built_in">^</span>{-6<span class="hljs-keyword">\pi</span>}} {1+<span class="hljs-keyword">\frac</span>{e<span class="hljs-built_in">^</span>{-8<span class="hljs-keyword">\pi</span>}} {1+<span class="hljs-keyword">\cdots</span>} } } }
+</code></pre>
+<h2 id="example7">Example 7</h2>
+<pre><code class="hljs latex language-latex">1 +  <span class="hljs-keyword">\frac</span>{q<span class="hljs-built_in">^</span>2}{(1-q)}+<span class="hljs-keyword">\frac</span>{q<span class="hljs-built_in">^</span>6}{(1-q)(1-q<span class="hljs-built_in">^</span>2)}+<span class="hljs-keyword">\cdots</span> = <span class="hljs-keyword">\prod</span><span class="hljs-built_in">_</span>{j=0}<span class="hljs-built_in">^</span>{<span class="hljs-keyword">\infty</span>}<span class="hljs-keyword">\frac</span>{1}{(1-q<span class="hljs-built_in">^</span>{5j+2})(1-q<span class="hljs-built_in">^</span>{5j+3})}, <span class="hljs-keyword">\quad</span><span class="hljs-keyword">\quad</span> <span class="hljs-keyword">\text</span>{for }<span class="hljs-keyword">\lvert</span> q<span class="hljs-keyword">\rvert</span>&lt;1.
+</code></pre></div>
+  
+    <div id="Exercises" style="visibility:hidden"> <h1 id="exercisesarchives">Exercises &amp; Archives</h1>
+<p>You can link to zipped archives:</p>
+<ul>
+<li><a href="./archives/archive.zip" rel="noopener noreferrer" target="_blank">Solutions</a></li>
+</ul>
+<p>This archive must be placed in the <code>archives</code> folder as shown above.</p>
+<h2 id="exercise1">Exercise 1:</h2>
+<p>Instructions for exercise 1.</p>
+<h2 id="exercise2">Exercise 2:</h2>
+<p>Instructions for exercise 2.</p>
+<h2 id="exercise3">Exercise 3:</h2>
+<p>Instructions for exercise 3.</p></div>
+  
+  <script>
+    function showtab(tabs) {
+      let menuItem;
+      
+      menuItem = document.getElementById('menu-Lab-01');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-01');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-02');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-03');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-04');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-05');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Exercises');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      var tab = tabs;
+      switch (tab)
+      {
+        
+          case "Lab-01":
+            menuItem = document.getElementById('menu-Lab-01');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Lab-01").innerHTML;
+            break;
+        
+          case "01":
+            menuItem = document.getElementById('menu-01');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("01").innerHTML;
+            break;
+        
+          case "02":
+            menuItem = document.getElementById('menu-02');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("02").innerHTML;
+            break;
+        
+          case "03":
+            menuItem = document.getElementById('menu-03');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("03").innerHTML;
+            break;
+        
+          case "04":
+            menuItem = document.getElementById('menu-04');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("04").innerHTML;
+            break;
+        
+          case "05":
+            menuItem = document.getElementById('menu-05');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("05").innerHTML;
+            break;
+        
+          case "Exercises":
+            menuItem = document.getElementById('menu-Exercises');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Exercises").innerHTML;
+            break;
+        
+          default:
+            document.getElementById('tab-container').innerHTML = document.getElementById("00").innerHTML;
+            break;
+      }
+    }
+  </script>
+</div>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </body>
+</html>
